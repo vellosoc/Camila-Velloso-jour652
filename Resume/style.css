@@ -4,6 +4,14 @@ body {
   color: #444;
 }
 
+
+#containter {
+  width:100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+
 #name {
   font-size:3em;
   text-transform: uppercase;
@@ -15,14 +23,6 @@ body {
   margin:0 auto;
 }
 
-
-strong {
-  font-size:1.5em;
-  text-transform: uppercase;
-  color:#33485e;
-}
-
-
 .sectionheader {
   font-size:1.5em;
   text-transform: uppercase;
@@ -31,35 +31,69 @@ strong {
   font-weight:400;
   margin-bottom:10px;
   margin-top: 20px;
-  margin-left: 0px;
-  margin-right: 0px;
   width: 70%;
   min-width: 300px;
+  padding-left: 20px;
 }
 
+#title {
+  font-size:1.5em;
+  text-transform: uppercase;
+  color:#33485e;
+  font-weight:600;
+  margin-top: 20px;
+  text-align: center;
+}
 
 .jobtitle {
   font-weight: 600;
   font-size:1.5em;
 }
 
-
 .organization {
   font-weight: 400;
   font-size:1.25em;
 }
-
 
 .date {
   font-weight: 400;
   font-style:italic;
   font-size:1em;
   margin-top: 2px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
 }
 
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.menu{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+
+.menu li{
+    display: inline;
+}
+
+#degrees {
+  margin-top: 5px;
+}
+
+#do {
+  margin-top: 5px;
+}
+
+.top {
+  width:60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+}
 
 li {
   font-size:1em;
