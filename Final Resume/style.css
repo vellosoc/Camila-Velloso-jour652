@@ -1,0 +1,943 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+	font-family: sans-serif;
+	color: #505962;
+}
+
+/*--- Start of NAVBAR --*/
+.navbar{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	background-color: #505962;
+}
+
+.navbar-brand img{
+	height: 4rem;
+}
+/*--- End of NAVBAR --*/
+
+/*--- Start of HOME Landing Page Fix --*/
+
+.caption{
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.caption h3{
+	float:down;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+}
+
+.btn{
+	font-family: 'Raleway', sans-serif;
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding:.5rem 1.1rem;
+	font-size: .9rem;
+	color: black;
+	border-color: black;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+
+.home-inner{
+	background-image: url('img/blank.png');
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- End of HOME Landing Page Fix --*/
+
+/*--- Start of ABOUT Landing Page Fix --*/
+.about1{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.about1 h3{
+	text-align: center;
+	color: black;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-decoration: underline;
+}
+
+.about1 p{
+	color: black;
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+	padding-left: 17rem;
+	padding-right: 17rem;
+	padding-top: 3rem;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: white;
+	text-align: justify;
+  text-justify: inter-word;
+	letter-spacing: 1.2px;
+}
+
+
+.landing2 {
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.about-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.about-inner {
+	background-image: url('img/aboutb1.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- End of ABOUT Landing Page Fix --*/
+
+
+/*--- Start of EXPERIENCE Landing Page Fix --*/
+.experience{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.experience h3{
+	text-align: center;
+	color: black;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+
+.landing4 {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.experience-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.experience-inner {
+	background-image: url('img/art.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- End of EXPERIENCE Landing Page Fix --*/
+
+/******************* Timeline Demo - 8 *****************/
+.main-timeline8 {
+    overflow: hidden;
+    position: relative
+}
+
+.main-timeline8:after,
+.main-timeline8:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both
+}
+
+.main-timeline8:before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #0f1f38;
+    position: absolute;
+    top: 30px;
+    left: 50%
+}
+
+.main-timeline8 .timeline {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+    position: relative
+}
+
+.main-timeline8 .timeline-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #0f1f38;
+    position: absolute;
+    top: 5.5%;
+    right: -17.5px
+}
+
+.main-timeline8 .year {
+    display: block;
+    padding: 10px;
+    margin: 0;
+		font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    background: #0f1f38;
+    text-align: center;
+    position: relative
+}
+
+.main-timeline8 .year:before {
+    content: "";
+    border-top: 35px solid #7ba4a8;
+    border-left: 35px solid transparent;
+    position: absolute;
+    bottom: -35px;
+    left: 0
+}
+
+.main-timeline8 .timeline-content {
+    padding: 30px 20px;
+    margin: 0 45px 0 35px;
+    background: #f2f2f2
+}
+
+.main-timeline8 .title {
+		font-family: 'Nanum Gothic', sans-serif;
+		font-size: 19px;
+    font-weight: 700;
+    color: #504f54;
+    margin: 0 0 10px
+}
+
+.main-timeline8 .description {
+		font-family: 'Nanum Gothic', sans-serif;
+		font-size: 16px;
+    color: #7d7b7b;
+    margin: 0
+}
+
+.main-timeline8 .timeline:nth-child(2n) {
+    padding: 0 0 0 30px
+}
+
+.main-timeline8 .timeline:nth-child(2n) .timeline-icon {
+    right: auto;
+    left: -14.5px
+}
+
+.main-timeline8 .timeline:nth-child(2n) .year {
+    border-radius: 50px 0 0 50px;
+    background: #0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(2n) .year:before {
+    border-left: none;
+    border-right: 35px solid transparent;
+    left: auto;
+    right: 0;
+
+}
+
+.main-timeline8 .timeline:nth-child(2n) .timeline-content {
+    text-align: left;
+    margin: 0 35px 0 45px
+}
+
+.main-timeline8 .timeline:nth-child(2) {
+    margin-top: 170px
+}
+
+.main-timeline8 .timeline:nth-child(odd) {
+    margin: -175px 0 0
+}
+
+.main-timeline8 .timeline:nth-child(even) {
+    margin-bottom: 80px
+}
+
+.main-timeline8 .timeline:first-child,
+.main-timeline8 .timeline:last-child:nth-child(even) {
+    margin: 0
+}
+
+.main-timeline8 .timeline:nth-child(2n) .timeline-icon {
+    border-color: #0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(2n) .year:before {
+    border-top-color:#7ba4a8
+}
+
+.main-timeline8 .timeline:nth-child(3n) .timeline-icon {
+    border-color:#0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(3n) .year {
+    background: #0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(3n) .year:before {
+    border-top-color:#7ba4a8
+}
+
+.main-timeline8 .timeline:nth-child(4n) .timeline-icon {
+    border-color: #0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(4n) .year {
+    background: #0f1f38
+}
+
+.main-timeline8 .timeline:nth-child(4n) .year:before {
+    border-top-color: #7ba4a8
+}
+
+@media only screen and (max-width:767px) {
+    .main-timeline8 {
+        overflow: visible
+    }
+
+    .main-timeline8:before {
+        top: 0;
+        left: 0
+    }
+
+    .main-timeline8 .timeline:nth-child(2),
+    .main-timeline8 .timeline:nth-child(even),
+    .main-timeline8 .timeline:nth-child(odd) {
+        margin: 0
+    }
+
+    .main-timeline8 .timeline {
+        width: 100%;
+        float: none;
+        padding: 0 0 0 30px;
+        margin-bottom: 20px !important
+    }
+
+    .main-timeline8 .timeline:last-child {
+        margin: 0 !important
+    }
+
+    .main-timeline8 .timeline-icon {
+        right: auto;
+        left: -14.5px
+    }
+
+    .main-timeline8 .year {
+        border-radius: 50px 0 0 50px
+    }
+
+    .main-timeline8 .year:before {
+        border-left: none;
+        border-right: 35px solid transparent;
+        left: auto;
+        right: 0
+    }
+
+    .main-timeline8 .timeline-content {
+        margin: 0 35px 0 45px
+    }
+}
+/*--- End of TIMELINE Landing Page Fix --*/
+
+
+/*--- Start of EDUCATION Landing Page Fix --*/
+.education{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.education h3{
+	text-align: center;
+	color: white;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+
+.landing3 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.education-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.education-inner {
+	background-image: url('img/clock.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+	font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #25303B;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 7px #25303B;
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+	font-family: 'Nanum Gothic', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px;
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #7ba4a8;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #7ba4a8;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #7ba4a8;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #7ba4a8;
+}
+
+
+/*--- End of EDUCATION Landing Page Fix --*/
+
+
+/*--- Start of SKILLS Landing Page Fix --*/
+.skills{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.skills h3{
+	text-align: center;
+	color: white;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+
+.landing5 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: 0;
+}
+.skills-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.skills-inner {
+	background-image: url('img/stones.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.accord{
+	padding-top: 50px;
+    padding-right: 35%;
+    padding-bottom: 100px;
+    padding-left: 35%;
+}
+
+body1 {
+	height: calc(100% - 20px);
+	width: calc(100% - 20px);
+	margin: 0;
+	padding: 10px;
+	display: flex;
+	background: #f2f2f2;
+	color: rgba(0,0,0,.87);
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.accordion {
+	margin: auto;
+	width: 400px;
+}
+.accordion input {
+	display: none;
+}
+.box {
+	position: relative;
+	background: white;
+    height: 64px;
+    transition: all .15s ease-in-out;
+}
+.box::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+header.box {
+	background: #662225;
+	z-index: 100;
+	cursor: initial;
+	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px -2px rgba(0,0,0,.12),0 2px 4px -4px rgba(0,0,0,.24);
+}
+header .box-title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 20pt;
+	color: white;
+	cursor: initial;
+}
+.box-title {
+	font-size: 16pt;
+	width: calc(100% - 40px);
+	height: 64px;
+	line-height: 64px;
+	padding: 0 20px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+.box-content {
+	width: calc(100% - 40px);
+	padding: 30px 20px;
+	font-size: 14pt;
+	color: rgba(0,0,0,.54);
+	display: none;
+}
+.box-close {
+	position: absolute;
+	height: 64px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	display: none;
+}
+input:checked + .box {
+	height: auto;
+	margin: 16px 0;
+    box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+}
+input:checked + .box .box-title {
+	border-bottom: 1px solid rgba(0,0,0,.18);
+}
+input:checked + .box .box-content,
+input:checked + .box .box-close {
+	display: inline-block;
+}
+.arrows section .box-title {
+	padding-left: 44px;
+	width: calc(100% - 64px);
+}
+.arrows section .box-title:before {
+	position: absolute;
+	display: block;
+	content: '\203a';
+	font-size: 18pt;
+	left: 20px;
+	top: -2px;
+	transition: transform .15s ease-in-out;
+	color: rgba(0,0,0,.54);
+}
+input:checked + section.box .box-title:before {
+	transform: rotate(90deg);
+}
+
+
+/*--- End of SKILLS Landing Page Fix --*/
+
+
+/*--- Start of PROJECTS Landing Page Fix --*/
+.projects{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.projects h3{
+	text-align: center;
+	color: black;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+
+.landing6 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: 0;
+}
+.projects-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.projects-inner {
+	background-image: url('img/abstract.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.card{
+	height: 80%;
+	margin:3rem;
+	border-color: black;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+/*--- End of PROJECTS Landing Page Fix --*/
+
+
+/*--- Start of INTERESTS Landing Page Fix --*/
+.interests{
+	width:100%;
+	max-width: 100%;
+	position: relative;
+	padding-top: 5rem;
+	top: 40%;
+	z-index: 1;
+}
+
+.interests h3{
+	text-align: center;
+	color: black;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+
+.landing7 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.interests-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.interests-inner {
+	background-image: url('img/snow.png');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-bottom: 2rem;
+}
+
+.polaroid {
+  margin: 20px;
+  height: 295px;
+  width: 290px;
+  padding: 15px;
+  background-color: #e9e9e9;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo {
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 0 50px rgba(99, 99, 80, 0.8);
+  height: 210px;
+  width: 260px;
+  background-color: white;
+}
+
+.polaroid h4 {
+  font: 400 100px/1.5 'Raleway', sans-serif;
+  color: black;
+  margin: 15px 0;
+  font-size: 25px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+
+
+
+
+
+/*--- End of INTERESTS Landing Page Fix --*/
+
+
+
+.footer{
+	background-image: url('img/blank.png');
+	padding:0;
+	color: black;
+	text-align: center;
+}
+
+.footer h2{
+	padding-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footer a{
+	color:black;
+}
+
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+}
