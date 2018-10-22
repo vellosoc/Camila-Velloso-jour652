@@ -55,6 +55,8 @@ body {
   z-index: -1;
 }
 
+
+
 .home-inner{
 	background-image: url('img/blank.png');
 }
@@ -148,6 +150,12 @@ body {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
+}
+
+@media screen and (max-width: 768px) {
+  .about p {
+   font-size:16px;
+ }
 }
 /*--- End of ABOUT Landing Page Fix --*/
 
@@ -837,6 +845,13 @@ input:checked + section.box .box-title:before {
   background: #E9ECEF;
   z-index: -1;
 }
+
+@media screen and (max-width: 768px) {
+  .landing7 {
+   width:50%;
+ }
+}
+
 .interests-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
