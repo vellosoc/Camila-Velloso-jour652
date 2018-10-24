@@ -850,6 +850,8 @@ input:checked + section.box .box-title:before {
   .landing7 {
    width:50%;
  }
+
+
 }
 
 .interests-wrap {
@@ -876,10 +878,8 @@ input:checked + section.box .box-title:before {
 }
 
 .cont {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
   align-items: center;
 	padding-bottom: 2rem;
 }
@@ -934,6 +934,11 @@ input:checked + section.box .box-title:before {
 	font-family: 'Raleway', sans-serif;
 }
 
+.footer h3{
+	font-size: 12px;
+	padding-top:0;
+}
+
 .footer a{
 	color:black;
 }
@@ -955,4 +960,13 @@ input:checked + section.box .box-title:before {
   display: inline-block;
   margin: 0 auto;
   padding-left: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    .about1 p{
+			font size:16px;
+			padding-left: 0;
+			padding-right: 0;
+			color:black;
+		}
 }
