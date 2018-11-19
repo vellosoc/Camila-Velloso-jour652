@@ -106,7 +106,35 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula venenatis ultricies. Aliquam dolor est, accumsan ac malesuada non, dignissim id risus. Curabitur ut sapien in lacus ornare elementum eget et eros. Sed blandit dictum tellus nec consectetur. In molestie consectetur felis, nec tincidunt nunc efficitur vel. Nam aliquam velit non quam rutrum lobortis. Suspendisse nec interdum mi. Duis pellentesque interdum ipsum, vel sagittis felis pellentesque in. Duis eget nunc vel orci sagittis lacinia eget id purus. Curabitur congue pulvinar ex, ut sollicitudin est viverra sed. Cras fermentum vestibulum malesuada. Fusce ut magna eget leo scelerisque pharetra. Donec efficitur rhoncus ex, sed condimentum leo cursus ut. Nunc malesuada sit amet est at finibus. Aliquam eu nisi magna. Integer non fringilla ante.</p>
 
 
+
 </div> <!-- End Container -->
+<br><br>
+<div id="iframe">
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1AfIu7NDjHbSScvWg93lJoFARQe0sAO3Tin97VFSiyNo&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+</div>
+
+
+<div id="map">
+  <iframe width="1300" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1VmufC9WSHibBz1tG6kUuT_hpxjqilSiNitr6WZ96&amp;viz=MAP&amp;h=false&amp;lat=22.105998799750562&amp;lng=43.15037499999994&amp;t=1&amp;z=2&amp;l=col2&amp;y=3&amp;tmplt=5&amp;hml=TWO_COL_LAT_LNG"></iframe>
+</div>
+
+<!-- seventh graphic container-->
+<div class="graphic-container">
+  <h2>Earnings for Top 10 Men and Women's Players in 2018</h2>
+  <p>Total prize money for the year (in dollars) by player ranking.</p><br>
+  <div id="earnings"></div>
+  <em>Source: Data collected from WTA and ATP</em>
+</div>
+<!-- END seventh graphic container-->
+
+<!-- eigth graphic container-->
+<div class="graphic-container">
+  <h2>Fines by Gender at Grand Slam Tournaments</h2>
+  <p>Data from Grand Slam tournaments from 1998 to 2018.</p><br>
+  <div id="category"></div>
+  <em>Source: Data collected by the New York Times</em>
+</div>
+<!-- END eigth graphic container-->
 
 <!-- first graphic container-->
 <div class="graphic-container">
@@ -164,9 +192,27 @@
 </div>
 <!-- END sixth graphic container-->
 
+
+
 <!-- c3 script-->
  <script type="text/javascript">
  //CHART 1
+
+ var chart7 = c3.generate({
+   bindto: '#earnings',
+   data: {
+     x: 'x',
+     columns: [
+       ['x', 1,2,3,4,5,6,7,8,9,10],
+       ['Men', 11177672, 8663347, 6990233, 5917766, 5217914, 4313699, 4321148, 4150745, 3378388, 3543875],
+       ['Women', 7409564, 5686362, 6657719, 5737247, 6394289, 5068099, 3301389, 3539050, 3163688, 2747441],
+     ]
+   },
+   color: {
+     pattern: ['#66cdaa', '#ff00ff', '#ee6a4b', '#60c4b2', '#973895']
+   }
+ });
+
  var chart = c3.generate({
    bindto: '#myLineChart',
    data: {
@@ -273,6 +319,47 @@
              pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
            }
          });
+
+         var chart7 = c3.generate({
+           bindto: '#earnings',
+           data: {
+             x: 'x',
+             columns: [
+               ['x', 1,2,3,4,5,6,7,8,9,10],
+               ['Men', 11177672, 8663347, 6990233, 5917766, 5217914, 4313699, 4321148, 4150745, 3378388, 3543875],
+               ['Women', 7409564, 5686362, 6657719, 5737247, 6394289, 5068099, 3301389, 3539050, 3163688, 2747441],
+             ]
+           },
+           color: {
+             pattern: ['#15A071', '#990099', '#ee6a4b', '#60c4b2', '#973895']
+           }
+         });
+
+         var chart8 = c3.generate({
+           bindto: '#category',
+    data: {
+        x : 'x',
+        columns: [
+            ['x', 'Racket Abuse', 'Audible Obscenity', 'Unsportsmanlike Conduct', 'Coaching'],
+            ['Men', 646, 344, 287, 87],
+            ['Women', 99, 140, 67, 152],
+        ],
+        groups: [
+            ['Men', 'Women']
+        ],
+        type: 'bar'
+    },
+    axis: {
+        x: {
+            type: 'category' // this needed to load string x value
+        }
+    },
+    color: {
+      pattern: ['#15A071', '#990099', '#ee6a4b', '#60c4b2', '#973895']
+    }
+});
+
+
 </script>
 
 <br>
