@@ -113,11 +113,14 @@
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1AfIu7NDjHbSScvWg93lJoFARQe0sAO3Tin97VFSiyNo&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 </div>
 
+<br><br>
 
 <div id="map">
+  <h2>Equal Pay in Year-Round Joint ATP and WTA Tournaments</h2>
   <iframe width="1300" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1VmufC9WSHibBz1tG6kUuT_hpxjqilSiNitr6WZ96&amp;viz=MAP&amp;h=false&amp;lat=22.105998799750562&amp;lng=43.15037499999994&amp;t=1&amp;z=2&amp;l=col2&amp;y=3&amp;tmplt=5&amp;hml=TWO_COL_LAT_LNG"></iframe>
 </div>
 
+<br><br>
 <!-- seventh graphic container-->
 <div class="graphic-container">
   <h2>Earnings for Top 10 Men and Women's Players in 2018</h2>
@@ -126,7 +129,7 @@
   <em>Source: Data collected from WTA and ATP</em>
 </div>
 <!-- END seventh graphic container-->
-
+<br><br>
 <!-- eigth graphic container-->
 <div class="graphic-container">
   <h2>Fines by Gender at Grand Slam Tournaments</h2>
@@ -135,15 +138,33 @@
   <em>Source: Data collected by the New York Times</em>
 </div>
 <!-- END eigth graphic container-->
-
-<!-- first graphic container-->
+<br><br>
+<!-- ninth graphic container-->
+<div class="graphic-container">
+  <h2>Media Coverage of Women's Sports</h2>
+  <p>Women In Sport’s most recent survey in 2014 found that only 7% of all sports coverage in the UK is dedicated to women's sports. Figures below reported in percent.</p>
+  <div id="womeninsports"></div>
+  <em>Source: Data collected by Women in Sports</em>
+</div>
+<!-- END ninth graphic container-->
+<br><br>
+<!-- ninth graphic container-->
+<div class="graphic-container">
+  <h2>Media Coverage of Women's Sports</h2>
+  <p>Women In Sport’s most recent survey in 2014 found that only 7% of all sports coverage in the UK is dedicated to women's sports.</p>
+  <div id="piechart"></div>
+  <em>Source: Data collected by Women in Sports</em>
+</div>
+<!-- END ninth graphic container-->
+<br><br>
+<!-- tenth graphic container-->
 <div class="graphic-container">
   <h2>Shootings by year</h2>
   <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
   <div id="myLineChart"></div>
   <em>Source: Data collected by The Washington Post</em>
 </div>
-<!-- END first graphic container-->
+<!-- END tenth graphic container-->
 <br><br>
 
 <!-- second graphic container-->
@@ -358,6 +379,41 @@
       pattern: ['#15A071', '#990099', '#ee6a4b', '#60c4b2', '#973895']
     }
 });
+
+    var chart9 = c3.generate({
+          bindto: '#womeninsports',
+          data: {
+            columns: [
+              ['TV', 10],
+              ['Newspaper', 2],
+              ['Radio', 5],
+              ['Online', 4],
+            ],
+            type: 'bar'
+          },
+          color: {
+            pattern: ['#021c1e', '#6fb98f', '#2c7873', '#004445', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+          }
+        });
+
+        var chart9 = c3.generate({
+              bindto: '#piechart',
+              data: {
+                // iris data from R
+                columns: [
+                  ['Media coverage of male sports', 93],
+                  ['Media coverage of female sports', 7],
+                ],
+                type : 'pie',
+                onclick: function (d, i) { console.log("onclick", d, i); },
+                onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+              },
+              color: {
+                pattern: ['#021c1e', '#6fb98f', '#ee6a4b', '#60c4b2', '#973895']
+              }
+
+            });
 
 
 </script>
