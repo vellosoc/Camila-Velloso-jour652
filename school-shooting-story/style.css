@@ -1,0 +1,208 @@
+#container{
+  max-width:1000px;
+  width:100%;
+}
+
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+  color:white;
+  font-size:1.25em;
+}
+
+.star-logo{
+  width:15px;
+  margin-right:5px;
+}
+
+#hero{
+  text-align: center;
+}
+.hero-image{
+  width:100%;
+  max-width: 900px;
+}
+
+#stars{
+  text-align: center;
+}
+
+.star-break{
+  width:15px;
+  margin-right:5px;
+  padding-top: 10px;
+}
+
+.star-heading{
+  width:15px;
+  text-align: left;
+}
+
+p{
+ font-family: 'PT Serif', serif;
+ text-align:left;
+ line-height:180%;
+ width:80%;
+ margin: 0 auto;
+ font-size: 1em;
+}
+
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  weight:700;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  weight:700;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+  width:80%;
+  margin:0 auto;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin:0 auto;
+  width:55%;
+  line-height: 1.8;
+  padding-top: 20px;
+}
+
+figcaption {
+  text-align: left;
+  margin:0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width:30%;
+  color:#C0C0C0;
+  line-height: 2;
+}
+
+h5{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+h6{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 80%;
+  line-height: 1.8;
+  margin:0 auto;
+  padding-bottom: 5px;
+}
+
+.graph-subhead{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 50%;
+  line-height: 1.8;
+  margin:0 auto;
+  padding-bottom: 5px;
+}
+
+#alaina{
+  text-align: center;
+}
+
+.alaina-petty{
+  width:30%;
+}
+
+#byline{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#myLineChart{
+  width:80%;
+  margin:0 auto;
+}
+
+#killedbyyear{
+  width:80%;
+  margin:0 auto;
+}
+
+#shootingsByTypeChart{
+  width:50%;
+  margin:0 auto;
+}
+
+em{
+  display: block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+figure{
+  max-width: 70%;
+  margin:0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+
+
+.row{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin:0 auto;
+  text-align: left;
+  max-width: 75%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer{
+  margin-top: 20px;
+  padding-top:5px;
+  padding-bottom: 20px;
+  background-color: #DCDCDC;
+  text-align: center;
+  font-size: 12px;
+}
