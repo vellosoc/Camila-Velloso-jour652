@@ -27,40 +27,45 @@ ul.navbar-nav {
 }
 /* END Navigation */
 
-
-/* START Title Page and Hero Image */
-#title-page{
+header.masthead{
+  padding-top: 28rem;
+  padding-bottom: 40px;
   background-image: url("hero.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height:700px;
-  max-height: 700px;
-  margin-bottom: 3rem;
+  background-position: center center;
+  background-size: cover;
 }
 
 .title{
   font-family: 'Sedgwick Ave', cursive;
   font-size: 5rem;
   color:white;
-  position: absolute;
-  bottom: 50px;
-  right: 16px;
-  max-width: 500px;
+  text-align: right;
+  bottom:0px;
 }
 
 .byline{
   font-family: 'Sedgwick Ave', cursive;
   font-size: 2rem;
   color:white;
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  max-width: 500px;
+  text-align: right;
+  padding-right: 20px;
+  bottom:0px;
 }
-/* END Title Page and Hero Image */
+
+.photo-credit{
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 10px;
+  color:white;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+  bottom:0px;
+}
+
+
 
 /* START Paragraph Text */
-span {
+.firstcharacter {
   float: left;
   font-size: 60px;
   line-height: 1;
@@ -95,72 +100,67 @@ p{
 /* END Paragraph Text */
 
 /* START Headline Text */
-h2{
-  font-family: 'Arimo', sans-serif;
+.heading{
+  font-family: 'Merienda', cursive;
   font-size: 35px;
   padding-top: 20px;
   padding-bottom: 30px;
-  text-align: left;
+  text-align: center;
+  width:60%;
+  margin:0 auto;
+}
+
+.timeline{
+  margin: 0 auto;
+  width:60%;
+}
+
+
+iframe{
+  width: 100%;
+  max-width: 900px;
+}
+
+#map{
+  margin: 0 auto;
+  width: 50%;
+}
+
+#earnings{
   width:50%;
   margin:0 auto;
 }
 
-
-#myLineChart{
-  width:90%;
-  margin:0 auto;
-}
-
-#shootingsByTypeChart{
-  width:90%;
-  margin:0 auto;
-}
-
-#where{
-  width:90%;
-  margin:0 auto;
-}
-
-#killedbyyear{
-  width:90%;
-  margin:0 auto;
-}
-
-#earnings{
-  width:90%;
-  margin:0 auto;
-}
-
 #category{
-  width:90%;
+  width:50%;
   margin:0 auto;
 }
 
 #womeninsports{
-  width:90%;
+  width:50%;
   margin:0 auto;
 }
 
 #piechart{
-  width:90%;
+  width:50%;
   margin:0 auto;
 }
 
-#shooter-race{
-  width:90%;
-  margin:0 auto;
+.chart-title{
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+  font-family: 'Arimo', sans-serif;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
-#iframe{
-  width:90%;
-  margin:0 auto;
+.chart-description{
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
 }
 
-#map{
-  width:90%;
-  margin:0 auto;
-  max-width: 1300px;
-}
 
 
 em{
@@ -171,63 +171,240 @@ em{
   text-align: center;
 }
 
-.graphic-container h2{
-  text-align: center;
-}
-
-.graphic-container p{
-  text-align: left;
-}
-
-.container{
-  max-width:1000px;
-  width:100%;
-}
-
-h1{
-  font-family: 'Cabin', sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 10px;
-}
-
-
-
-
-
-
-
-figure{
-  max-width: 70%;
-  margin:0 auto;
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 10px;
-}
-
 figcaption {
-    display: block;
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    color: black;
-    text-align: left;
+  text-align: center;
+  margin:0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width:30%;
+  color:#A9A9A9;
+  line-height: 1.8;
 }
 
-.row{
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin:0 auto;
-  text-align: left;
-  max-width: 75%;
-  padding-bottom: 10px;
-  padding-top: 10px;
+h2{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Arimo', sans-serif;
 }
+
+
+.pullquote1{
+  padding-left: .5em;
+  border-left: 0.2em solid;
+  font-size: 22px;
+  line-height: 1.8;
+  width:42%;
+  margin-left:18rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: 2em;
+  margin-bottom: .5em;
+  background:  #6fb98f;
+}
+
+.attribution1{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  color:#808080;
+}
+
+
+.pullquote3{
+  padding-left: .5em;
+  border-left: 0.2em solid;
+  font-size: 22px;
+  line-height: 1.8;
+  width:37%;
+  margin-left:18rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom: .5em;
+  background:  #6fb98f;
+}
+
+.attribution3{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  color:#808080;
+}
+
+
+.pullquote5{
+  padding-left: .5em;
+  border-left: 0.2em solid;
+  font-size: 22px;
+  line-height: 1.8;
+  width:22%;
+  margin-left:18rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom: .5em;
+  background:  #6fb98f;
+}
+
+.attribution5{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  color:#808080;
+}
+
+
+.pullquote7{
+  padding-left: .5em;
+  border-left: 0.2em solid;
+  font-size: 22px;
+  line-height: 1.8;
+  width:43%;
+  margin-left:18rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom: .5em;
+  background:  #6fb98f;
+}
+
+.attribution7{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  color:#808080;
+}
+
+.pullquote2{
+  padding-left: 1em;
+  border-right: 0.2em solid;
+  border-color: black;
+  font-size: 22px;
+  line-height: 1.8;
+  color:white;
+  width:28%;
+  margin-left:45rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom:.5em;
+  background: #660066;
+}
+
+.attribution2{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  margin-left:47rem;
+  color:#808080;
+}
+
+.pullquote4{
+  padding-left: 1em;
+  border-right: 0.2em solid;
+  border-color: black;
+  font-size: 22px;
+  line-height: 1.8;
+  color:white;
+  width:42%;
+  margin-left:32.5rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom:.5em;
+  background: #660066;
+}
+
+.attribution4{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  margin-left:47rem;
+  color:#808080;
+}
+
+
+.pullquote6{
+  padding-left: 1em;
+  border-right: 0.2em solid;
+  border-color: black;
+  font-size: 22px;
+  line-height: 1.8;
+  color:white;
+  width:30%;
+  margin-left:43.3rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top: .8em;
+  margin-bottom:.5em;
+  background: #660066;
+}
+
+.attribution6{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  margin-left:47rem;
+  color:#808080;
+}
+
+.pullquote8{
+  padding-left: 1em;
+  border-right: 0.2em solid;
+  border-color: black;
+  font-size: 22px;
+  line-height: 1.8;
+  color:white;
+  width:20%;
+  margin-left:52.2rem;
+  font-family: 'Sedgwick Ave', cursive;
+  margin-top:.8em;
+  margin-bottom:.5em;
+  background: #660066;
+}
+
+.attribution8{
+  font-size: 15px;
+  width:50%;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  margin-left:50rem;
+  color:#808080;
+}
+
+
+/* START About Sources Box */
+#box{
+    background:#E8E8E8;
+    width:50%;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding:10px 10px 10px 10px;
+    margin-top:2rem;
+}
+
+.box-text{
+ font-family: 'Arimo', sans-serif;
+ font-size: 16px;
+}
+/* END About Sources Box */
 
 .footer{
-  margin-top: 20px;
-  padding-top:5px;
-  padding-bottom: 20px;
-  background-color: #DCDCDC;
+  font-family: 'Montserrat', sans-serif;
+  height:100px;
+  line-height: 1.8;
+  padding-bottom:20px;
+  padding: 25px;
+  background:#16202a;
+  color:white;
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
 }
