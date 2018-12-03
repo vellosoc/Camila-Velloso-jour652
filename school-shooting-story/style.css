@@ -255,11 +255,11 @@ iframe{
 /* START Footer*/
 .footer{
   font-family: 'Montserrat', sans-serif;
+  height:100px;
   line-height: 1.8;
   font-size:1.25em;
   margin-top: 20px;
-  padding-top:1rem;
-  padding-bottom: 1rem;
+  padding: 25px;
   background:#000;
   color:white;
   text-align: center;
