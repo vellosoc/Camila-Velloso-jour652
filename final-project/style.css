@@ -161,8 +161,6 @@ iframe{
   text-align: left;
 }
 
-
-
 em{
   display: block;
   font-size: 12px;
@@ -393,8 +391,6 @@ h2{
     font-size: 1rem;
   }
 }
-
-
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
   #wordcloud{
