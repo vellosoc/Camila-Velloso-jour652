@@ -5,7 +5,7 @@
 }
 
 ul.navbar-nav {
- margin-left:80%;
+ margin-left:70%;
 }
 
 .navbar {
@@ -24,20 +24,22 @@ ul.navbar-nav {
 /* END Navigation */
 
 header.masthead{
-  padding-top: 28rem;
-  padding-bottom: 40px;
   background-image: url("hero.jpeg");
   background-position: center center;
   background-size: cover;
 }
 
 .title{
+  padding-top: 18rem;
   font-family: 'Sedgwick Ave', cursive;
   font-size: 5rem;
   color:white;
   text-align: right;
   bottom:0px;
+  padding-right: 1rem;
+  padding-bottom: 3.5rem;
 }
+
 
 .byline{
   font-family: 'Sedgwick Ave', cursive;
@@ -46,6 +48,8 @@ header.masthead{
   text-align: right;
   padding-right: 20px;
   bottom:0px;
+  padding-right: 1rem;
+  font-weight: lighter;
 }
 
 .photo-credit{
@@ -366,23 +370,30 @@ h2{
 }
 /* END About Sources Box */
 
+
 .footer{
-  font-family: 'Montserrat', sans-serif;
-  height:100px;
-  line-height: 1.8;
-  padding-bottom:20px;
-  padding: 25px;
+ font-family: 'Arimo', sans-serif;
+  height:100%;
   background:#16202a;
   color:white;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 2.6;
 }
+
 
 @media only screen and (max-width: 768px) {
   .pullquote{
     font-size:20px;
   }
+  .title{
+    font-size:3rem;
+  }
+  .byline{
+    font-size: 1rem;
+  }
 }
+
 
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
